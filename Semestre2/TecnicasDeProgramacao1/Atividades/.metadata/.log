@@ -1,0 +1,217 @@
+!SESSION 2025-05-15 14:59:46.942 -----------------------------------------------
+eclipse.buildId=4.35.0.20250306-0811
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-15 14:59:49.843
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-15 15:00:24.973
+!MESSAGE Logback config file: /home/marcos/faculdade/Semestre2/TecnicasDeProgramacao1/Atividades/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.oomph.setup.editor 2 0 2025-05-15 15:00:36.721
+!MESSAGE Could not open a web browser because there are none configured. Check the Web Browser preferences.
+!STACK 1
+org.eclipse.ui.PartInitException: Could not open a web browser because there are none configured. Check the Web Browser preferences.
+	at org.eclipse.ui.internal.browser.DefaultBrowserSupport.createBrowser(DefaultBrowserSupport.java:105)
+	at org.eclipse.ui.internal.browser.WorkbenchBrowserSupport.createBrowser(WorkbenchBrowserSupport.java:92)
+	at org.eclipse.oomph.setup.presentation.handlers.DonateHandler.execute(DonateHandler.java:65)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:277)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:98)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:299)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:233)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:174)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:165)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.oomph.setup.ui.SetupUIPlugin$2.run(SetupUIPlugin.java:392)
+	at org.eclipse.oomph.ui.UIUtil$5.run(UIUtil.java:604)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4527)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:668)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:576)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:670)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:607)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1492)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1465)
+!SUBENTRY 1 org.eclipse.ui 4 0 2025-05-15 15:00:36.722
+!MESSAGE Could not open a web browser because there are none configured. Check the Web Browser preferences.
+
+!ENTRY org.eclipse.equinox.p2.metadata 1 0 2025-05-15 15:01:24.507
+!MESSAGE No translation source unavailable. Default language will be used.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 1000 2025-05-15 18:07:58.018
+!MESSAGE No repository found at file:/home/marcos/.p2/pool.
+!SESSION 2025-05-15 18:08:31.475 -----------------------------------------------
+eclipse.buildId=4.35.0.20250306-0811
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-15 18:08:32.793
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-15 18:08:37.100
+!MESSAGE Logback config file: /home/marcos/faculdade/Semestre2/TecnicasDeProgramacao1/Atividades/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.epp.mpc.ui 1 0 2025-05-15 18:16:48.603
+!MESSAGE Performing Marketplace install request from https://marketplace.eclipse.org/marketplace-client-intro?mpc_install=3274405
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-15 18:16:59.914
+!MESSAGE ex-0000000018 Cookie rejected [_cfuvid="SG_g2OQXXBKURpemPJRP2miZUPkKw7EmBRZSWaW1.RI-1747343819897-0.0.1.1-604800000", domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "www.codetogether.com"
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-15 18:17:00.187
+!MESSAGE ex-0000000019 Cookie rejected [_cfuvid="pDxZ0_NfrilVq475p0iGh8qnGCIF_8o7XFFKeF7CXbA-1747343820175-0.0.1.1-604800000", domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "www.codetogether.com"
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-15 18:17:00.443
+!MESSAGE ex-0000000020 Cookie rejected [_cfuvid="Ug6v1z034dBsy_cy58ndwH7UCTaZ..gIJSqnQB7sTHc-1747343820431-0.0.1.1-604800000", domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "www.codetogether.com"
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-15 18:17:39.386
+!MESSAGE ex-0000000080 Cookie rejected [_cfuvid="hD0ZkMFu3vwtoKgST2g3I2qB.Yx0Zy7.ppd7X_w1eCU-1747343859370-0.0.1.1-604800000", domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "www.codetogether.com"
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-15 18:17:39.649
+!MESSAGE ex-0000000081 Cookie rejected [_cfuvid="R8XlOH6LqafC4cJHKLdcFZD8VBT6L4dS3LYjc_r7VwI-1747343859634-0.0.1.1-604800000", domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "www.codetogether.com"
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-05-15 18:17:49.968
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.json.simple,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-05-15 18:17:49.968
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.core.common.rss,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-05-15 18:17:49.968
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.core.common.platform,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-05-15 18:17:49.969
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.inlinesearch,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-05-15 18:17:50.116
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.meexplorer.jdt,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-05-15 18:17:50.116
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.meexplorer,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-05-15 18:17:50.138
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.patches,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-05-15 18:17:50.177
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.startup,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-05-15 18:17:50.181
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.startup.workspace,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-05-15 18:17:50.190
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.base,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-05-15 18:17:50.239
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.core,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-05-15 18:17:50.256
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,com.genuitec.eclipse.theming.core.feature,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-05-15 18:17:50.262
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.css,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-05-15 18:17:50.311
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,com.genuitec.eclipse.theming.designer.feature,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-05-15 18:17:50.318
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.epl,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-05-15 18:17:50.347
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,com.genuitec.eclipse.theming.feature,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-05-15 18:17:50.359
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.icon.designer,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-05-15 18:17:50.361
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.scrollbar,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-05-15 18:17:50.397
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.ui,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-05-15 18:17:50.400
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.ui.common.platform,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-05-15 18:17:50.424
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.webclipse.evergreen,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-05-15 18:17:50.443
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.webicons,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-05-15 18:17:50.527
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipsecolortheme.api,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+!SESSION 2025-05-15 18:18:04.743 -----------------------------------------------
+eclipse.buildId=4.35.0.20250306-0811
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-15 18:18:06.260
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-15 18:18:11.422
+!MESSAGE Logback config file: /home/marcos/faculdade/Semestre2/TecnicasDeProgramacao1/Atividades/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.epp.mpc.ui 1 0 2025-05-15 18:22:15.191
+!MESSAGE Performing Marketplace install request from https://marketplace.eclipse.org/marketplace-client-intro?mpc_install=3274405
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-15 18:22:27.957
+!MESSAGE ex-0000000013 Cookie rejected [_cfuvid="jFrSTDy3VlxiufFfmEMP4_nX4XH9r1HucvtxxTmg0lc-1747344147940-0.0.1.1-604800000", domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "www.codetogether.com"
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-05-15 18:23:12.055
+!MESSAGE ex-0000000069 Cookie rejected [_cfuvid="01DV8DmduzNgFHdUwQoPcnEczbeD7qK1__KzFFpAKOM-1747344192039-0.0.1.1-604800000", domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "www.codetogether.com"
+!SESSION 2025-05-15 18:23:27.817 -----------------------------------------------
+eclipse.buildId=4.35.0.20250306-0811
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-15 18:23:29.879
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-15 18:24:45.873
+!MESSAGE Logback config file: /home/marcos/faculdade/Semestre2/TecnicasDeProgramacao1/Atividades/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-05-15 18:24:46.292
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-05-15 18:24:46.292
+!MESSAGE Cannot bind to an undefined command: plug-in='com.genuitec.eclipse.theming.ui', id='com.genuitec.myeclipse.help.darktheme.commandid'
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2025-05-15 18:24:46.539
+!MESSAGE A DevStyle Theme is being activated on this workspace; preparing colors and configuration
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2025-05-15 18:24:46.548
+!MESSAGE DevStyle has archived current color configurations to alternate preferences - will be restored when switching out of the DevStyle Theme
+
+!ENTRY com.genuitec.eclipse.theming.ui 4 0 2025-05-15 18:24:49.881
+!MESSAGE Linux display manager Wayland detected. Set WEBKIT_DISABLE_COMPOSITING_MODE=1 as an environment variable to fix Browser usage, such as showing JavaDoc information.
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2025-05-15 18:24:50.042
+!MESSAGE Authorization Server started successfuly

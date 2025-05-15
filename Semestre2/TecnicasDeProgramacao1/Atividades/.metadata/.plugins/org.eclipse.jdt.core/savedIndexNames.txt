@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+/home/marcos/faculdade/Semestre2/TecnicasDeProgramacao1/Atividades/.metadata/.plugins/org.eclipse.jdt.core
+1808566966.index
+1865797976.index
+1293416447.index
