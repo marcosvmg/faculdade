@@ -1,0 +1,18 @@
+﻿Marcos Vinícius Martins Gouveia, DSM2, 16/05/25
+
+Perguntas:
+
+1. Sobrescrita de métodos
+ Quando uma classe filha muda como um método funciona, mesmo que ele tenha o mesmo nome da classe mãe. Assim, objetos diferentes da mesma família podem agir de jeitos diferentes.
+
+2. Sobrecarga de métodos vs sobrescrita
+ Sobrecarga é ter vários métodos com o mesmo nome, mas diferentes jeitos de usar (parâmetros). Sobrescrita é mudar o método que já existe na mãe para fazer algo diferente. Sobrecarga é escolhida antes de rodar o programa, sobrescrita é decidida enquanto o programa está rodando.
+
+3. Sobrecarga de construtores
+ É quando você pode criar objetos de um jeito ou de outro, usando diferentes informações. Isso ajuda a montar o objeto do jeito que você tem os dados na mão.
+
+4. Polimorfismo por sobrescrita em formas de pagamento
+ Você pode ter um método para pagar que funciona diferente para cartão, boleto, pix, sem precisar mudar a base do programa. Cada tipo “fala” o seu jeito, mas o programa só chama o método geral.
+
+5. Sobrecarga do método converter()
+ Você pode ter várias versões do método que converte coisas diferentes, tipo converter números, texto ou outros formatos, usando o mesmo nome, só mudando os detalhes de entrada.
